@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Web Semplice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Benvenuto nel Nostro Sito</h1>
+        <p>Questo è un esempio di un sito web semplice creato con HTML, CSS e JavaScript.</p>
+    </section>
+
+    <section id="chi-siamo">
+        <h2>Chi Siamo</h2>
+        <p>Siamo un gruppo di creativi appassionati di tecnologia e design.</p>
+    </section>
+
+    <section id="contatti">
+        <h2>Contattaci</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Invia</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sito Web Semplice</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
